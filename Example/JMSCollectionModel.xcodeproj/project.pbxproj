@@ -75,6 +75,7 @@
 		AC6C84A31AFC9B2000021DA8 /* JMSTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMSTableDataSource.m; path = ../../Pod/Classes/JMSTableDataSource.m; sourceTree = "<group>"; };
 		AC6C84AB1AFC9DE800021DA8 /* JMSCollectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMSCollectionModel.h; path = ../../Pod/Classes/JMSCollectionModel.h; sourceTree = "<group>"; };
 		AC6C84AC1AFC9DE800021DA8 /* JMSCollectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMSCollectionModel.m; path = ../../Pod/Classes/JMSCollectionModel.m; sourceTree = "<group>"; };
+		AC6C84D71AFCEFF800021DA8 /* JMSCollectionCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMSCollectionCellProtocol.h; path = ../../Pod/Classes/JMSCollectionCellProtocol.h; sourceTree = "<group>"; };
 		B04AD11455D87942554AD35A /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D167A705ECD722E70D2A470B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DF2B14E1AA217AFB0A27F23B /* JMSCollectionModel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JMSCollectionModel.podspec; path = ../JMSCollectionModel.podspec; sourceTree = "<group>"; };
@@ -219,6 +220,7 @@
 				AC6C84A01AFC9B0900021DA8 /* JMSCollectionItem.m */,
 				AC6C84A21AFC9B2000021DA8 /* JMSTableDataSource.h */,
 				AC6C84A31AFC9B2000021DA8 /* JMSTableDataSource.m */,
+				AC6C84D71AFCEFF800021DA8 /* JMSCollectionCellProtocol.h */,
 			);
 			name = Pod;
 			sourceTree = "<group>";

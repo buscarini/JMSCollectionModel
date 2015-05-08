@@ -10,6 +10,7 @@
 
 #import "JMSCollectionSection.h"
 #import "JMSCollectionItem.h"
+#import "JMSCollectionCellProtocol.h"
 
 @implementation JMSTableDataSource
 
@@ -25,9 +26,16 @@
 }
 
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	JMSCollectionSection *sectionModel = _model.sections[indexPath.section];
+	JMSCollectionItem *item = sectionModel.items[indexPath.row];
+	
+	UITableViewCell<JMSCollectionCellProtocol> *cell = [tableView dequeueReusableCellWithIdentifier:self.cellIdBlock(item,indexPath)];
+
 	
 	
+	[cell fillWithData:item];
 	
+	return cell;
 }
 
 #pragma mark UITableViewDelegate
