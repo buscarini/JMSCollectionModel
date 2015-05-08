@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'JMSCollectionModel', :exclusive => true do
+  pod "JMSCollectionModel", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "JMSCollectionModel", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
