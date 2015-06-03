@@ -156,6 +156,7 @@
 		6003F593195388D20070C39A /* JMSCollectionModel */ = {
 			isa = PBXGroup;
 			children = (
+				ACEF400B1B00F50C00B1B84E /* Modules */,
 				6003F59C195388D20070C39A /* JMSAppDelegate.h */,
 				6003F59D195388D20070C39A /* JMSAppDelegate.m */,
 				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
@@ -223,6 +224,53 @@
 				AC6C84D71AFCEFF800021DA8 /* JMSCollectionCellProtocol.h */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		ACEF400B1B00F50C00B1B84E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				ACEF400C1B00F51300B1B84E /* List */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		ACEF400C1B00F51300B1B84E /* List */ = {
+			isa = PBXGroup;
+			children = (
+				ACEF40101B00F52700B1B84E /* Interactor */,
+				ACEF400F1B00F52200B1B84E /* Presenter */,
+				ACEF400E1B00F51F00B1B84E /* Entity */,
+				ACEF400D1B00F51900B1B84E /* View */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		ACEF400D1B00F51900B1B84E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ACEF400E1B00F51F00B1B84E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		ACEF400F1B00F52200B1B84E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		ACEF40101B00F52700B1B84E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Interactor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

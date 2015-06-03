@@ -12,5 +12,6 @@
 
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) NSArray *items;
+@property (nonatomic, copy) NSString *viewId;
 
 @end

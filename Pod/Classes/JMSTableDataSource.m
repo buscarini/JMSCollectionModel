@@ -29,10 +29,8 @@
 	JMSCollectionSection *sectionModel = _model.sections[indexPath.section];
 	JMSCollectionItem *item = sectionModel.items[indexPath.row];
 	
-	UITableViewCell<JMSCollectionCellProtocol> *cell = [tableView dequeueReusableCellWithIdentifier:self.cellIdBlock(item,indexPath)];
+	UITableViewCell<JMSCollectionCellProtocol> *cell = [tableView dequeueReusableCellWithIdentifier:item.viewId];
 
-	
-	
 	[cell fillWithData:item];
 	
 	return cell;

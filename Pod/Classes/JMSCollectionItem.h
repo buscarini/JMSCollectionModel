@@ -11,5 +11,6 @@
 @interface JMSCollectionItem : NSObject
 
 @property (nonatomic) id value;
+@property (nonatomic, copy) NSString *viewId;
 
 @end

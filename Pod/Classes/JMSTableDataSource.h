@@ -16,6 +16,5 @@ typedef NSString *(^JMSTableCellIdBlock)(JMSCollectionItem *item, NSIndexPath *i
 @interface JMSTableDataSource : NSObject <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, copy) JMSCollectionModel *model;
-@property (nonatomic, copy) JMSTableCellIdBlock cellIdBlock;
 
 @end
